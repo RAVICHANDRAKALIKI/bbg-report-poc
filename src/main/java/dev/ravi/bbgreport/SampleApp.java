@@ -31,7 +31,7 @@ public class SampleApp {
 
             myReport = new Report("Compare-Report-" +LocalDateTime.now().format(dtf));
 
-            for (int page = 1; page <= 1; page++) {
+            for (int page = 1; page <= 5; page++) {
 
                 EmployeePage employeePage = EmployeePage.readPageData();
 
